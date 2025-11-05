@@ -1,0 +1,8 @@
+escena inicio {
+    decir "Hola!";
+    opcion "Seguir" ir_a paso2;
+}
+
+escena paso2 {
+    decir "Segunda escena.";
+}

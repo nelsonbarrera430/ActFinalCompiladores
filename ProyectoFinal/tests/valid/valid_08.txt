@@ -1,0 +1,13 @@
+escena uno {
+    decir "Escena uno.";
+    opcion "Siguiente" ir_a dos;
+}
+
+escena dos {
+    decir "Escena dos.";
+    opcion "Final" ir_a tres;
+}
+
+escena tres {
+    decir "Fin.";
+}

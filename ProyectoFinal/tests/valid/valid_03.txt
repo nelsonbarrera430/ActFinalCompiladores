@@ -1,0 +1,8 @@
+escena entrada {
+    decir "Entrada principal.";
+    opcion "Ir a sala" ir_a sala;
+}
+
+escena sala {
+    decir "Sala principal.";
+}

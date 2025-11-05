@@ -1,0 +1,8 @@
+escena principal {
+    decir "Inicio.";
+    opcion "Continuar" ir_a final;
+}
+
+escena final {
+    decir "Gracias!";
+}

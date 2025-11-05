@@ -1,0 +1,5 @@
+=== COMPILACIÓN MiniGuion ===
+Archivo de entrada: input.txt
+
+✅ Código generado correctamente.
+Archivo generado: output_program.py

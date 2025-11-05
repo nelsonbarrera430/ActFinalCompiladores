@@ -1,0 +1,9 @@
+escena inicio {
+    decir "Bienvenido!";
+    opcion "Ir a arte" ir_a arte;
+}
+
+escena arte {
+    decir "Sala de arte.";
+    opcion "Volver" ir_a inicio;
+}

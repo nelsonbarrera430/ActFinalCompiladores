@@ -1,0 +1,13 @@
+escena menu {
+    decir "Opciones.";
+    opcion "A" ir_a a;
+    opcion "B" ir_a b;
+}
+
+escena a {
+    decir "Escena A.";
+}
+
+escena b {
+    decir "Escena B.";
+}

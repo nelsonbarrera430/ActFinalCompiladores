@@ -1,0 +1,13 @@
+escena inicio {
+    decir "Inicio.";
+    opcion "Ir a historia" ir_a historia;
+}
+
+escena historia {
+    decir "Historia humana.";
+    opcion "Fin" ir_a fin;
+}
+
+escena fin {
+    decir "Gracias.";
+}

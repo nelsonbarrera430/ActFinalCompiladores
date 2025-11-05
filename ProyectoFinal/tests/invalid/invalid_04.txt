@@ -1,0 +1,4 @@
+escena a {
+    decir "A";
+    opcion "Ir" ir_a b;
+}

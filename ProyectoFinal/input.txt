@@ -1,0 +1,46 @@
+escena inicio {
+    decir "Bienvenido al Museo Virtual de Historia y Arte!";
+    decir "Puedes explorar distintas salas del museo.";
+    opcion "Ir a la Sala de Arte" ir_a arte;
+    opcion "Ir a la Sala de Historia" ir_a historia;
+}
+
+escena arte {
+    decir "Has llegado a la Sala de Arte.";
+    decir "Aquí encontrarás pinturas clásicas y esculturas modernas.";
+    opcion "Ir a la Sala de Ciencia" ir_a ciencia;
+    opcion "Regresar al inicio" ir_a inicio;
+}
+
+escena historia {
+    decir "Esta es la Sala de Historia.";
+    decir "Podrás ver objetos antiguos y conocer civilizaciones pasadas.";
+    opcion "Ir a la Sala de Tecnología" ir_a tecnologia;
+    opcion "Regresar al inicio" ir_a inicio;
+}
+
+escena ciencia {
+    decir "Bienvenido a la Sala de Ciencia.";
+    decir "Observa experimentos interactivos y modelos del universo.";
+    opcion "Ir a la Sala de Tecnología" ir_a tecnologia;
+    opcion "Volver a la Sala de Arte" ir_a arte;
+}
+
+escena tecnologia {
+    decir "Has llegado a la Sala de Tecnología.";
+    decir "Aquí se muestran inventos que cambiaron el mundo.";
+    opcion "Ir a la Tienda del Museo" ir_a tienda;
+    opcion "Regresar al inicio" ir_a inicio;
+}
+
+escena tienda {
+    decir "Esta es la Tienda del Museo.";
+    decir "Puedes comprar recuerdos y catálogos de las exposiciones.";
+    opcion "Salir del museo" ir_a fin;
+    opcion "Regresar a la Sala de Tecnología" ir_a tecnologia;
+}
+
+escena fin {
+    decir "Gracias por visitar el Museo Virtual!";
+    decir "Esperamos que vuelvas pronto.";
+}

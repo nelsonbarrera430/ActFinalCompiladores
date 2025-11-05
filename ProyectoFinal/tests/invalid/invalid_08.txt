@@ -1,0 +1,4 @@
+escena inicio {
+    decir "Bienvenido!";
+    opcion "Ir a arte" ir_a arte;
+// Falta cierre

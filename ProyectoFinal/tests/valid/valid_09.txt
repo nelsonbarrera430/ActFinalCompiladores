@@ -1,0 +1,9 @@
+escena intro {
+    decir "Inicio.";
+    opcion "Ir a sala" ir_a sala;
+}
+
+escena sala {
+    decir "Sala.";
+    opcion "Volver" ir_a intro;
+}

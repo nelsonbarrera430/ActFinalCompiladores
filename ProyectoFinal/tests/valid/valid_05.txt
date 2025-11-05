@@ -1,0 +1,13 @@
+escena inicio {
+    decir "Bienvenido visitante!";
+    opcion "Explorar" ir_a sala1;
+}
+
+escena sala1 {
+    decir "Pinturas antiguas.";
+    opcion "Terminar" ir_a fin;
+}
+
+escena fin {
+    decir "Fin del recorrido.";
+}

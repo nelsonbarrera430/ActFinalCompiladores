@@ -1,0 +1,8 @@
+escena guia {
+    decir "Soy el guía.";
+    opcion "Comenzar" ir_a recorrido;
+}
+
+escena recorrido {
+    decir "Sala de fósiles.";
+}
